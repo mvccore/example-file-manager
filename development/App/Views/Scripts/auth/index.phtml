@@ -1,0 +1,9 @@
+<?php
+	/** @var $this \MvcCore\View */
+	/** @var $this->SingInForm \MvcCore\Ext\Auths\SignInForm */
+?>
+<h1><?php echo $this->Title; ?></h1>
+<?php if ($this->Message): ?>
+	<p><?php echo $this->Message; ?></p>
+<?php endif; ?>
+<?php echo $this->SignInForm->Render(); ?>

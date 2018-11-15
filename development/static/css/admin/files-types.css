@@ -1,0 +1,93 @@
+.files-directory .x-tree-icon-parent:before,
+.files-directory .x-tree-icon-leaf:before{content:"\f07b" !important;}
+.files-directory .x-tree-icon-parent-expanded:before,
+.x-tab-icon-el.files-directory:before{content:"\f07c" !important;}
+
+.files-link .x-tree-icon-parent:before,
+.files-link .x-tree-icon-parent-expanded:before,
+.files-link .x-tree-icon-leaf:before,
+.x-tab-icon-el.files-link:before{content:"\f0c1" !important;}
+
+.files-drive .x-tree-icon-parent:before,
+.files-drive .x-tree-icon-parent-expanded:before,
+.files-drive .x-tree-icon-leaf:before,
+.x-tab-icon-el.files-drive:before{content:"\f015" !important;}
+
+.files-directory-recyclebin .x-tree-icon-parent:before,
+.files-directory-recyclebin .x-tree-icon-parent-expanded:before,
+.files-directory-recyclebin .x-tree-icon-leaf:before,
+.x-tab-icon-el.files-directory-recyclebin:before{content:"\f014" !important;}
+
+.files-file-unknown .x-tree-icon-parent:before,
+.files-file-unknown .x-tree-icon-parent-expanded:before,
+.files-file-unknown .x-tree-icon-leaf:before,
+.files-file-binary .x-tree-icon-parent:before,
+.files-file-binary .x-tree-icon-parent-expanded:before,
+.files-file-binary .x-tree-icon-leaf:before,
+.x-tab-icon-el.files-file-unknown:before,
+.x-tab-icon-el.files-file-binary:before{content:"\f15b" !important;}
+
+.files-file-executable .x-tree-icon-parent:before,
+.files-file-executable .x-tree-icon-parent-expanded:before,
+.files-file-executable .x-tree-icon-leaf:before,
+.x-tab-icon-el.files-file-executable:before{content:"\f01c" !important;}
+
+.files-file-email .x-tree-icon-parent:before,
+.files-file-email .x-tree-icon-parent-expanded:before,
+.files-file-email .x-tree-icon-leaf:before,
+.x-tab-icon-el.files-file-email:before{content:"\f003" !important;}
+
+.files-file-text .x-tree-icon-parent:before,
+.files-file-text .x-tree-icon-parent-expanded:before,
+.files-file-text .x-tree-icon-leaf:before,
+.x-tab-icon-el.files-file-text:before{content:"\f0f6" !important;}
+
+.files-file-data .x-tree-icon-parent:before,
+.files-file-data .x-tree-icon-parent-expanded:before,
+.files-file-data .x-tree-icon-leaf:before,
+.x-tab-icon-el.files-file-data:before{content:"\f1c0" !important;}
+
+.files-file-acrobat .x-tree-icon-parent:before,
+.files-file-acrobat .x-tree-icon-parent-expanded:before,
+.files-file-acrobat .x-tree-icon-leaf:before,
+.x-tab-icon-el.files-file-acrobat:before{content:"\f1c1" !important;}
+
+.files-file-document .x-tree-icon-parent:before,
+.files-file-document .x-tree-icon-parent-expanded:before,
+.files-file-document .x-tree-icon-leaf:before,
+.x-tab-icon-el.files-document-:before{content:"\f1c2" !important;}
+
+.files-file-sheet .x-tree-icon-parent:before,
+.files-file-sheet .x-tree-icon-parent-expanded:before,
+.files-file-sheet .x-tree-icon-leaf:before,
+.x-tab-icon-el.files-file-sheet:before{content:"\f1c3" !important;}
+
+.files-file-presentation .x-tree-icon-parent:before,
+.files-file-presentation .x-tree-icon-parent-expanded:before,
+.files-file-presentation .x-tree-icon-leaf:before,
+.x-tab-icon-el.files-file-presentation:before{content:"\f1c4" !important;}
+
+.files-file-image .x-tree-icon-parent:before,
+.files-file-image .x-tree-icon-parent-expanded:before,
+.files-file-image .x-tree-icon-leaf:before,
+.x-tab-icon-el.files-file-image:before{content:"\f1c5" !important;}
+
+.files-file-archive .x-tree-icon-parent:before,
+.files-file-archive .x-tree-icon-parent-expanded:before,
+.files-file-archive .x-tree-icon-leaf:before,
+.x-tab-icon-el.files-file-archive:before{content:"\f1c6" !important;}
+
+.files-file-audio .x-tree-icon-parent:before,
+.files-file-audio .x-tree-icon-parent-expanded:before,
+.files-file-audio .x-tree-icon-leaf:before,
+.x-tab-icon-el.files-file-audio:before{content:"\f1c7" !important;}
+
+.files-file-video .x-tree-icon-parent:before,
+.files-file-video .x-tree-icon-parent-expanded:before,
+.files-file-video .x-tree-icon-leaf:before,
+.x-tab-icon-el.files-file-video:before{content:"\f1c8" !important;}
+
+.files-file-code .x-tree-icon-parent:before,
+.files-file-code .x-tree-icon-parent-expanded:before,
+.files-file-code .x-tree-icon-leaf:before,
+.x-tab-icon-el.files-file-code:before{content:"\f1c9" !important;}

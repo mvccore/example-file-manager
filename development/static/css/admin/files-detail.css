@@ -1,0 +1,29 @@
+.text-editor-textarea-wrapper{
+	background:#fff url("../../js/libs/ext-6.0.0/theme-gray/resources/images/form/text-bg.gif") 0 0 repeat-x !important;
+}
+.text-editor-textarea-wrapper textarea {
+	font-size:14px;
+	font-family:'consolas',curier-new;
+	padding:5px;
+	background-color:transparent !important;
+	background-image:url('../../theme/admin/editor-bg-gray-dot.png') !important;
+	background-position-y:0;
+	background-repeat:repeat-y !important;
+}
+
+.files-toolbar-icon-save:before {
+	content: "\f0c7" !important;
+}
+.files-toolbar-icon-reload:before {
+	content: "\f021" !important;
+}
+.files-toolbar-icon-remove:before {
+	content: "\f00d" !important;
+}
+.files-toolbar-icon-show-in-tree:before {
+	content: "\f05b" !important;
+}
+
+.tab-icon-settings:before {
+	content: "\f0c9" !important;
+}

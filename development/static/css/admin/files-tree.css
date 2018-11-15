@@ -1,0 +1,37 @@
+[class^="icon-"]:before, [class*=" icon-"]:before {
+    font-size: 22px;
+    padding-bottom: 2px;
+}
+
+/* files tree customization */
+.x-tree-icon,
+.x-tree-icon-parent,
+.x-tree-icon-parent-expanded,
+.x-tree-icon-leaf{background-image:none !important;}
+.x-tree-icon:before,
+.x-tree-icon-parent:before,
+.x-tree-icon-parent-expanded:before,
+.x-tree-icon-leaf:before {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	transform: translate(0, 0);
+}
+
+.files-hidden .x-tree-icon-parent:before,
+.files-hidden .x-tree-icon-parent-expanded:before,
+.files-hidden .x-tree-icon-leaf:before,
+.files-hidden .x-tree-node-text{opacity:0.6;}
+.files-hidden .x-tree-node-text{font-style:italic;}
+
+.files-errors .x-tree-node-text{color:red !important;}
+
+.x-tree-node-text{display:inline-block;padding-top:3px;}
+.x-tree-icon,
+.x-tree-elbow-img,
+.x-tree-checkbox{margin-top:0 !important;}
+
+.tree-paging-toolbar{position:absolute;right:0;height:20px;top:0;}
