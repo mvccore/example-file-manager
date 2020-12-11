@@ -1,7 +1,7 @@
 {
-	"name": "mvccore/example-editor",
+	"name": "mvccore/example-file-manager",
 	"type": "application",
-	"description": "MvcCore Example - Text Editor.",
+	"description": "MvcCore Example - File Manager.",
 	"keywords": [
 		"mvccore", 
 		"framework", 
