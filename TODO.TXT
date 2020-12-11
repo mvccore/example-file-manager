@@ -1,0 +1,32 @@
+- restorovani tabů
+	- adresu kládat jen ve tvaru: /opened-tabs/<cislo_fokusovaneho_tabu>/cislo_kroku_historie_v_databazi>/
+	- současně s přepisováním hashe v kodu ukladat do session storrage pod klíčem "mvccore_file_manager_history_<step>"
+		- tam naserializovat fullPath a rootId pro každý tab
+- dodělat ve stromě vytvařeni souboru
+- dodělat ve stromě přejměnování souboru
+- dodělat ve stromě mazání souboru
+- dodělat ve stromě vytváření linku?
+- udělat controller a view pro link
+- udělat directory
+	- toolbar s tlačítky - zodpovědět co tam všechno bude
+	- jako content udělat datagrid se stránkováním
+	- každá položka datagridu bude mít stejné možnosti jako standardní klik ve stromě - tedy otevření tabu
+		- pravé tlačítko bude mít ty samé možnosti jako je tomu ve stromě
+- udělat v layoutu někde prostor pro měnu kde budou následující dialogy
+	- nastavení editoru (volitelné podle configu ini nebo yaml)
+	- vyhledávání, které bude ajaxové
+		- měly by tam být možnosti
+			- podle jména
+			- podle obsahu
+			- v daném umístění
+			- regulární výraz
+			- jenom typy souborů
+		- requestovalo by se vždy o plán co procesovat
+			- to by vracelo podle nastavení a velikosti souborů
+			  kolik bude vláken a které zprocesuje co
+			- pak by takové vlákna procesovala a až by jedno dané vlákno mělo odprocesované
+			  tak by si vzalo úlohu jiného a až by nebylo co dělat požádalo by se o další plán
+			- dokud by byl otevřená tab, hledalo by se, hledání by v tabu šlo i pozastavit
+	- možnost psát do systémové konzole (volitelně, pokud funkce exec nebo system existuje)
+	
+	

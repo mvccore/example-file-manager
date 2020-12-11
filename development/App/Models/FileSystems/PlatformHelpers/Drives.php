@@ -42,6 +42,30 @@ class Drives extends \App\Models\FileSystems\PlatformHelper
 		}
 		return $drives;
 	}
+	private static function _getDriveWindowsCom () {
+		// TODO: check if 'COM' class exists first
+		$fso = new \COM('Scripting.FileSystemObject'); 
+		$D = $fso->Drives; 
+		$type = array("Unknown","Removable","Fixed","Network","CD-ROM","RAM Disk"); 
+		foreach($D as $d ){ 
+			$dO = $fso->GetDrive($d); 
+			$s = ""; 
+			if($dO->DriveType == 3){ 
+				$n = $dO->Sharename; 
+			}else if($dO->IsReady){ 
+				$n = $dO->VolumeName; 
+				$s = self::_file_size($dO->FreeSpace) . " free of: " . self::_file_size($dO->TotalSize); 
+			}else{ 
+				$n = "[Drive not ready]"; 
+			} 
+			echo "Drive " . $dO->DriveLetter . ": - " . $type[$dO->DriveType] . " - " . $n . " - " . $s . "<br>"; 
+		}
+	}
+	
+	private static function _file_size($size)  { 
+		$filesizename = array(" Bytes", " KB", " MB", " GB", " TB", " PB", " EB", " ZB", " YB"); 
+		return $size ? round($size/pow(1024, ($i = floor(log($size, 1024)))), 2) . $filesizename[$i] : '0 Bytes'; 
+	}
 
 	protected static function getDrivesMac () {
 		$drives = [];

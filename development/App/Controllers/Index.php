@@ -131,7 +131,8 @@ class Index extends Base
 
 	public function ErrorAction () {
 		$code = $this->response->GetCode();
-		$message = $this->request->GetParam('message', '\\a-zA-Z0-9_;, /\-\@\:');
+		if ($code === 200) $code = 404;
+		$message = $this->request->GetParam('message', 'a-zA-Z0-9_;, \\/\-\@\:\.');
 		$message = preg_replace('#`([^`]*)`#', '<code>$1</code>', $message);
 		$message = str_replace("\n", '<br />', $message);
 		$this->view->Title = "Error $code";
